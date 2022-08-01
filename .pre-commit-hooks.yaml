@@ -26,3 +26,11 @@
   entry: check-copyright
   require_serial: true
   pass_filenames: false
+
+- id: check-doc-link
+  name: check documentation link
+  description: check whether the link is valid
+  language: python
+  entry: check-doc-link
+  require_serial: true
+  pass_filenames: false
